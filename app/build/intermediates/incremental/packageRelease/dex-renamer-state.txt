@@ -1,0 +1,4 @@
+#Thu Aug 31 11:37:26 IST 2017
+base.0=/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

@@ -1,0 +1,828 @@
+<resources>
+    <string name="app_name">NSSC</string>
+
+    <!-- ... -->
+    <string name="facebook_application_id" translatable="false">317731328669399</string>
+    <!-- Facebook Application ID, prefixed by 'fb'.  Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">bcd56eaeae67c83903ac73364038c44f</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="nssc_full">National Student\'s Space Challenge</string>
+    <string name="org">The concept of a nationwide Space Technology Festival was formulated by Space Technology Students\' Society, a group of students of IIT Kharagpur from various disciplines striving to achieve a greater level of awareness in space technology and space sciences among the student community of India, and has helped drive innovation by the student community in these fields </string>
+    <string name="spats_desc">Dream alone and it remains a dream, dream together and you usher in a new reality. Six years ago, in 2011, the first, defining step of a highly eventful sojourn was taken at IIT Kharagpur with the introduction of the first Space Technology Festival in India by Space Technology Students\' Society (spAts), IIT Kharagpur. With the motives of inculcating a culture of space technology, inspiring research in the field of space technology, and broadening the horizons of the student community to cosmic research by eminent scientists, spAts initiated National Students\' Space Challenge, India\'s first and largest space technology fest. NSSC provides a platform, a rostrum to explore your interests in the field of space technology and get an opportunity to prove your mettle in a plethora of events. Be a part of this fest and feel the amazement of entering into the world of astrophysics, rocket science and the deep mysteries of our vast cosmos.</string>
+    <string name="updated_soon">Content will be updated soon</string>
+    <string name="col_intro">The year is 2035, and ISRO has devised a mission to explore the Solar System of TRAPPIST-1, which contains several earth-like planets. The principal probe that ISRO sent must visit all seven planets, but alas! it can only carry a limited amount of fuel. Depending on the orbital positions of the planets, you must devise the shortest way to explore all planets. Explore the deep reaches of space and search for the presence of extraterrestrial life in the event Colonizer!</string>
+    <string name="col_ps">Build an image processing robot that has to find the shortest route in terms of distance for visiting every Planet(Circle) exactly once. Video feed of the arena will be provided through an overhead camera. </string>
+    <string name="col_rule">1.Total time allowed for run will be 8 mins.\n \n
+2.Maximum of 2 timeouts are permitted, with each not exceeding 2 mins. Each timeout will attract penalty.
+2 mins penalty would be imposed on restart.\n \n
+3.Maximum number of participants allowed is 5 per team. The members from different colleges can form a team.\n \n
+4.The team cannot touch the bot during the course of run.\n \n
+5.Bot has to remain within the arena throughout the run.\n \n
+6.Hard-Coded Bots are not allowed for the competition.\n \n
+7.The participants will be provided with 220V, 50 Hz AC power supply, and any other power supply they require has to be arranged by themselves by the participants.
+8.Rules are subjected to change.\n \n
+9.Decision of Team NSSC will be final and binding under all circumstances.\n \n
+</string>
+
+    <string name="col_tut1">
+There are 7 different circular planets of different colours. There would be an overhead camera which will provide video feed to the bot.
+The team has to decide the starting point on their own and place the bot.\n After that, the bot has to find the shortest route to visit all the planets. At every stoppage(planet) the bot has to blink an LED corresponding to the colour of the planets. There should be 3 LED’s which could represent 1 to 7 in binary on the bot. Following is the  LED binary code of 3bits corresponding to each color. Red[rgb(255,0,0)] : 001; Blue[rgb(0,0,255)] : 010; Green[rgb(0,255,0)] : 011; White [rgb(255,255,255)] : 100; Purple[rgb(128,0,128)] : 101; Sky Blue [rgb(135,206,235)] : 110; Yellow[rgb(255,255,0)] : 111.
+</string>
+    <string name="col_r1_sc">
+        1) 200 points will be awarded as bonus at the start of the run.\n \n
+2) 20 points for stopping at a planet(once for each planet)\n \n
+3) 30 points will be awarded if bot blinks corresponding lights.\n\n
+4) 50 points if the bot completes the run visiting each planet once.\n\n
+5) 100 points if the bot takes the shortest path possible.
+</string>
+    <string name="col_r1_pen">1. 20 points will be deducted if it blinks light of different colour.\n\n
+2. 30 points will be deducted if it blinks light anywhere except at the planets.\n\n
+3. 50 points will be deducted points will be deducted if the bot visits any planet twice.\n\n
+4. 50 points will be deducted for timeout.\n\n
+5.100 points will be deducted for restart.\n\n
+6. 2*(d-d0) points will be deducted where d(in cm) is the distance travelled by the bot and d0(in cm) the shortest distance.\n\n
+7. 1*(t-t0) points will be deducted where t(in min) is the time taken by the bot and t0(time in minutes) is the minimum time taken to traverse.
+</string>
+    <string name="col_r2">There are 7 different planets(circular) of different colours and comets and asteroids(triangular obstacles). There would be an overhead camera which will provide video feed to the bot. The team has to decide the starting point on their own and place the bot. After that, the bot has to find the shortest route to visit all the planets/galaxies avoiding all the obstacles. At every stoppage(planet) the bot has to blink 3 LEDs corresponding to the Nth planet visited in binary format, e.g. 6th planet will be represented as 110. </string>
+    <string name="col_sc2">1. 200 points will be awarded as bonus at the start of the run.\n\n
+2. 20 points for stopping at a planet(once for each planet)\n\n
+3. 30 points will be awarded if bot blinks corresponding lights.\n\n
+4. 50 points if the bot completes the run visiting each planet once.\n\n
+5. 100 points if the bot takes the shortest path possible.
+</string>
+    <string name="col_pen2">1. 20 points will be deducted if it blinks light of different colour.\n\n
+2. 30 points will be deducted if it blinks light anywhere except at the planets.\n\n
+3. 50 points will be deducted points will be deducted if the bot visits any planet twice.\n\n
+4. 30 points will be deducted if the bot fails t avoid an obstacle.\n\n
+5. 50 points will be deducted for timeout.\n\n
+6. 100 points will be deducted for restart.\n\n
+        7. 2*(d-d0) points will be deducted where d(in cm) is the distance travelled by the bot and d0(in cm) the shortest distance(planet to planet).\n\n
+ 8. 1*(t-t0) points will be deducted where t is the time taken by the bot and to is the minimum time taken to traverse.
+</string>
+    <string name="col_area2">
+    1. The Arena will be a square of 3m side.\n\n
+    2. The planets will be circles of 15cm diameter each.\n\n
+    3. The triangles(asteroids in round 2) will equilateral with 10cm side.
+</string>
+    <string name="col_bot_spec">1. Maximum dimension allowed for lander is 30*30*30 cm [l*b*h*].\n\n
+2. In case the team is using a non-electric power supply, the team must get it approved from the organizers beforehand via email. Organizers will not be responsible for inconvenience if approval is not sought.\n\n
+3. The wires for the power supply should be at least 15 metres long.\n\n
+4. In all cases, any on-board power supply devices like batteries are to be included in the maximum dimension limit.\n\n
+5. Potential difference between any two points on the bot should not exceed 24 volts.\n\n
+6.The bot dimensions would be subject to tolerance of 5%.\n\n
+7. The rules are subject to change.\n\n
+8. In case of disputes, the decision of team NSSC is final and binding.
+</string>
+    <string name="col_hwap">1.An image processing code to detect the planets to traverse.\n\n
+2.An algorithm to find the shortest possible route.\n\n
+3.A code for IC to give commands to the bot.
+</string>
+    <string name="col_mat">2 Wheels\n\n
+1 Castor Wheel\n\n
+Metal Chassis\n\n
+2 DC motors\n\n
+1 Development Board\n\n
+1 Programmer (ISP/Arduino)\n\n
+Motor Driver (L293D)\n\n
+4 LEDs\n\n
+Relimates
+</string>
+    <string name="col_mech">Locomotion\n
+The most popular robot locomotion is achieved through differential drives which allows the robot to move in all directions and turn as well. It consists of 2 drive wheels on a common axis, and each wheel can independently being driven either forward or backwards.
+
+\n\nMicrocontroller\n
+It is a control device which incorporates a microprocessor. It takes input from the device it is controlling and controls the device by sending signals to different components in the device. We can easily pre-program it to make the robot move as per instructions given.
+</string>
+    <string name="mag_intro">Asteroid mining is a major source of minerals in the year 2065, and your bot near asteroid B1242 is sending the mined ore through its local wormhole to the other side, which opens up near Mars. The receiving bot needs to sort the ore for magnetic and non-magnetic materials to send to their respective processing sites. Build a viable means to sustain life on earth for generations in the event Magneteer!
+</string>
+    <string name="mag_ps">Build a robot capable of lifting objects having shapes such as cuboidal, pentagonal, hexagonal etc. and transferring the objects through a wall having holes with shape like that of the objects to another robot capable of classifying them into magnetic and non-magnetic ones.
+Two participants can control the bots at a time.
+</string>
+    <string name="mag_rules">1.Total time allotted for the event will be 15 minutes.\n\n
+2.Maximum of 2 timeouts are permitted, with each not exceeding 2 mins. Each timeout will attract penalty.\n\n
+3.2 mins penalty would be imposed on restart.\n\n
+4.Maximum number of participants allowed is 6 per team. The members from different colleges can form a team.\n\n
+5.The team cannot touch the bot during the course of run.\n\n
+6.Bot has to remain within the arena throughout the run.\n\n
+7.The participants will be provided with 220V, 50 Hz AC power supply, and any other power supply they require has to be arranged by themselves by the participants.\n\n
+8.Microprocessors used should not be more than 16 bit microprocessors.\n\n
+9.Rules are subjected to change.\n\n
+10.Decision of Team NSSC will be final and binding under all circumstances.
+</string>
+    <string name="mag_r1">Participants would have to build two manually controlled robots that can lift an object using grippers. Both bots will be on opposite sides of the wall which is dividing the arena into two parts. In the first half of the arena objects in the shape of cuboids are present in three different colours namely Red, Blue and Yellow. Each colour has equal number of cuboids. Participants would have to pick up the objects and pass them through a wall which will contain holes present at different height. Objects must be transferred through the hole which is having the same colour as themselves. On the other side of the wall the other bot will collect the object and classify them as magnetic or non-magnetic and place them in their respective position.
+</string>
+    <string name="mag_sc">1.Each team will be awarded 100 points at the start of the run.\n\n
+2.10 points will be awarded if the bot successfully picks up the object.\n\n
+3.10 points will be awarded if the object is transferred through the wall only from the corresponding hole.\n\n
+4.20 points will be awarded for correctly differentiating between magnetic and non magnetic and placing the object in its respective regions.\n\n
+5.If the objects are stacked one upon the other the points will be in order of 10, 20, 30 and soon as the objects are stacked. If the objects are just placed on the ground 10 points are awarded.
+</string>
+    <string name="mag_pen">1)5 points will be deducted every time the object falls after being completely lifted from the ground.\n\n
+2)30 points will be deducted for each timeout.\n\n
+3)10 points are deducted if the object is incorrectly classified as magnetic or non-magnetic.\n\n
+4)50 points will be deducted for each restart.
+</string>
+    <string name="mag_area">1.The arena will be a rectangle with Length as 4 meters and Breadth as 1.5 meters.\n\n
+2.Height of the wall is 30 cm and Length will be 1.5 meters.\n\n
+3.In Round One the size of the cuboidal objects will be 5cm*5cm*5cm (l*b*h).\n\n
+4.The size of the holes in the wall in Round One will be 7cm*7cm (l*b).\n\n
+5.The base of the holes will be present at heights of 5cm, 12 cm and 19 cm.\n\n
+6.In Round Two the size of the object will be such that they can completely fit into a circle of radius 3 cm and thickness will be 7 cm.
+</string>
+    <string name="mag_bot">1.Maximum dimension allowed for the bot is 25*25*25 cm (l*b*h) and the extended length (stretched in a single direction) with the gripping arm stretched should not exceed 35cm.\n\n
+2.In case the team is using a non-electric power supply, the team must get it approved from the organizers beforehand via email. Organizers will not be responsible for inconvenience if approval is not sought.\n\n
+3.The wires for the power supply should be at least 15 metres long.\n\n
+4.In all cases, any on-board power supply devices like batteries are to be included in the maximum dimension limit.\n\n
+5.Potential difference between any two points on the bot should not exceed 24 volts.\n\n
+6.The bot dimensions would be subject to tolerance of 5%.
+</string>
+    <string name="mag_hwap">Preparing mechanical design of bot\n
+It is advisable to keep the weight distribution over the bots uniform.\n
+Also, it’s better to keep a counter for extra moment which will be added after lifting up the block\n\n
+
+Deciding the gripper and holding mechanism\n
+As said above , lighter it can be , better it is but due importance must be given to the strength of gripper as it is supposed to sustain stress while doing its job.\n\n
+Locomotion of bot\n
+Bots must be able to perform all possible movements over smooth grounds.
+\n\n
+Magnetic indicator mechanism\n
+A magnetic indicator is required on second bot to give operator information about the block being magnetic / non-magnetic
+</string>
+    <string name="mag_mat">1.Chassis ( bot base : can be made of wooden board or material strong enough to sustain the load that would be subjected to it )\n\n
+2.Motors ( 2 for locomotion + 2 or more for gripper / lifting , holding mechanism )\n\n
+3.Gripper mechanism\n\n
+4.DPDT switches\n\n
+5.Batteries \n\n
+6.Magnetic indicator mechanism\n\n
+7.Rack and Pinion ( optional )
+</string>
+    <string name="mag_mech">Mechanism helpful in lifting and holding\n\n
+
+Rack and Pinion\n
+
+Rotating the motor causes relative motion between the gripper and rotor ( motor ) thus this relative motion can be used to lift things up and also to move arms which can work as gripper and holding mechanism
+\n\n
+Worm Gear Mechanism :
+\n
+Motor rotates a cylindrical gear which rotates two other gears which move the arms together or away which can be used to hold and release objects
+</string>
+    <string name="waterbot_key"><b>Key Concepts</b>\n\n1.Design aspects of underwater system.\n\n
+2.Water as a travel medium\n\n
+3.Underwater control and manoeuvring issues\n\n
+4.Underwater control system</string>
+    <string name="waterbot_course"><b>Course Structure\n\n</b>1.The Vehicle Frame\n\n
+2.The Thruster Assembly\n\n
+3.The Control Box\n\n
+4.Underwater camera and communications.</string>
+    <string name="rc_key">Key Concepts:\n\n1.Design, Fabricate and Test your own RC Flying Wing\n\n
+2.Concepts of Aeromodelling and Aerospace Engineering\n\n
+3.Realization of Flight Electronics\n\n
+4.RC Aircraft Design Procedure\n\n
+5.Explore to the art of Fabrication\n\n
+6.Hands-on experience to Modern day manufacturing Techniques</string>
+    <string name="rc_kit">Kit Content:\n\n1.Horn\n
+2.Clevis\n
+3.Push Rods\n
+4.Spar\n
+5.Tapes\n
+6.Epoxy glues</string>
+    <string name="sac">
+        Space Applications Centre It will comprise of :
+    \n\n1.Set of panels related to Remote Sensing Satellites, Communication Satellites and their applications
+    \n\n2.Chandrayaan / Mars Mission , models of camera of Mars Mission , satellite images of mars and Chandrayaan
+    \n\n3.Scaled down models of launch vehicles like PSLV , GSLV and Mk III
+    \n\n4.Various satellite models of INSAT,IRS,Oceansat,Aryabhata,Bhaskara,RISAT,Resoucesat,DAT,Apple etc
+    \n\n5.A working model showing satellites orbitting around earth
+    \n\n6.Video documentary shown on Mars Mission and Chandrayaan Mission
+    \n\n7.A video on how to join ISRO-IIST
+    \n\n8.Mechanical/ Electronic components , parts used in satellite will be displayed
+    \n\n9.ISRO\'s Geo portal-BHUVAN website will be demonstrated during the exhibition
+    \n\n10.Senior Scientist/Engineers from Space Applications Centre will remain present during the exhibition event and interact with visitors/students.
+    </string>
+    <string name="vr">
+        VR , you\'re not interpreting the medium: you\'re in it; which means that the medium is disappearing, that your consciousness becomes the medium. One of the most intriguing concepts of virtual reality is the ability to achieve a realistic simulation of worlds which are entirely the product of the imagination. Virtual reality was once the dream of science fiction. But the internet was also once a dream, and so were computers and smartphones. The future is coming to give us access to so much just out of reach physically, economically. If you can dream it, VR can make it.
+    </string>
+
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_guest_talks">GuestTalks</string>
+    <string name="title_activity_workshops">Workshops</string>
+    <string name="title_activity_magneteer">Magneteer</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_directions">Directions</string>
+    <string name="title_activity_hoverpod">Hoverpod</string>
+    <string name="title_activity_coloniser">Colonizer</string>
+    <string name="title_activity_firocious">Firocious</string>
+    <string name="title_activity_space_debate">Space Debate</string>
+    <string name="title_activity_cad">Designeer</string>
+    <string name="title_activity_tshirt_designing">T-Shirt Designing</string>
+    <string name="title_activity_case_study">Case Study</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="title_activity_paper_presentation">Paper Presentation</string>
+    <string name="title_activity_braitenberg_challenge">The Braitenberg Challenge</string>
+    <string name="title_activity_events2">Events</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="bc_intro">It is an Arduino based Extempore Hardware Programming event in which the participants will be  provided with small robotic platforms which they have to program according to the the problem  statement which will be revealed to them just before the event starts.
+</string>
+    <string name="bc_ps">The participating teams are required to code for two or more than two bots as stated in problem statement which will be released at the time when                                                                                                                                           09 event starts. For the run, bots will be provided by Organizing Team of NSSC.  Judging Parameters, Arena Specification and Bot Specification will be released with the release of Problem Statement. </string>
+    <string name="bc_rules">1.Maximum number of participants allowed is 3 per team. The members from different colleges can form a team.\n\n
+2.Limited number of sample arenas and bots will be provided before the run for tuning and calibration.\n\n
+3.5 minutes time will be given to the teams for the calibration of the bots just before the run.\n\n
+4.At the time of execution of the code on the bots participating teams will take complete responsibility of the bot and its damage.\n\n
+5.Team will be disqualified if damage occurs in their time of responsibility.\n\n
+6.Hard-Coding is not allowed.\n\n
+7.The team cannot touch the bot during the course of run.\n\n
+8.Bot has to remain within the arena throughout the run.\n\n
+9.Rules are subjected to change.\n\n
+10.Decision of Team NSSC will be final and binding under all circumstances.
+</string>
+    <string name="firo_intro">An accident on the International Space Settlement that is in orbit around earth has rendered several areas uninhabitable, and you don’t know which areas are safe for human presence. You must check each zone remotely for any harmful substance, render the area fit for human inhabitation, all from a distance. Presenting the event Firoceous, where you must engineer an autonomous robot to render the Space Settlement fit for operation!
+</string>
+    <string name="firo_ps">Build a fully autonomous robot to traverse white line and capable to stop near the rooms; open the doors; detects whether a lit candle placed inside the room and extinguish that candle, if found.
+</string>
+    <string name="firo_rules">1.      Total time allotted for the event will be 20 minutes.\n\n
+2.      Maximum of 2 timeouts are permitted, with each not exceeding 2 minutes. Each timeout will attract penalty.\n\n
+3.      2 minutes penalty would be imposed on restart.\n\n
+4.      Maximum number of participants allowed is 4 per team. The members from different colleges can form a team.\n\n
+5.      The team cannot touch the bot during the course of run.\n\n
+6.      Bot has to remain within the arena throughout the run.\n\n
+7.      The participants will be provided with 220V, 50 Hz AC power supply, and any other power supply they require has to be arranged by themselves by the participants.\n\n
+8.       Microprocessors used should not be more than 16 bit microprocessors.\n\n
+9.      Rules are subjected to change.\n\n
+10.  Decision of Team NSSC will be final and binding under all circumstances.
+</string>
+    <string name="firo_run">The bot has to traverse the arena starting from a START point, following the white line. During run it has to detect small rooms aligned parallel to the path and has to push open the door and detect if there is lit candle inside the room which it has to extinguish.
+The door will be double doors which will be hinged to the side faces of the room. Bot has to push the door to more than 30 mm inside the room, the door will open fully with a help magnetic mechanism inside the rooms.
+</string>
+    <string name="firo_sc">1.           Each team will be awarded 100 bonus points at the start of the run.\n\n
+2.           5 points will be awarded for clearing each level (T junction).\n\n
+3.           15 points will be awarded for stopping in front of the room.\n\n
+4.           20 points will be awarded for push opening the door after stopping at the room.\n\n
+5.           20 points will be awarded for successfully extinguishing the flame after stopping at the room and opening the door.\n\n
+6.           30 points will be awarded on reaching the end point.
+</string>
+    <string name="firo_pen">1.           5 points will be deducted each time the bot deviates from its path.\n\n
+2.           5 points will be deducted if the bot uses extinguishing measures even if the flame is not present.\n\n
+3.           5 points will be deducted if the bot stops anywhere else other than in front of the room.\n\n
+4.           30 points will be deducted for each timeout.\n\n
+5.           50 points will be deducted for each restart.
+</string>
+    <string name="firo_bot">1.      Maximum dimension allowed for the bot is 25cm*25cm*25cm (l*b*h) and extended length (stretched in single direction) with all arms or rack stretched should not exceed 50cm.
+\n\n2.      In case the team is using a non-electric power supply, the team must get it approved from the organizers beforehand via email. Organizers will not be responsible for inconvenience if approval is not sought.
+\n\n3.      The diameter of the propeller (if used) should be less than 80 mm.
+\n\n4.      Thrust produced by the motor-propeller system (if used) should not exceed 100 grams.
+\n\n5.      During run the bot should not break into two or more than two parts.
+\n\n6.      The wires for the power supply should be at least 15 metres long.
+\n\n7.      In all cases, any on-board power supply devices like batteries are to be included in the maximum dimension limit.
+\n\n8.      Potential difference between any two points on the bot should not exceed 24 volts.
+\n\n9.      The bot dimensions would be subject to tolerance of 5%.
+\n\n10.  The rules are subject to change.
+\n\n11.  In case of disputes, the decision of team NSSC is final and binding.
+</string>
+    <string name="firo_hwap">The task can be accomplished by the following steps:
+\n\n1.A line follower mechanism to traverse the arena.
+\n\n2.A mechanism to detect the presence of houses beside the white line while traversing.
+\n\n3.A Light Intensity/Heat detection mechanism through which the robot will be able to check for the candle in the house.
+\n\n4.A mechanism to extinguish the candle(if present).
+\n\n5.A rack and pinion mechanism for opening the door of the house.
+</string>
+    <string name="firo_mat">The robot will consist of mainly three mechanisms:\n\n
+1.Line follower.\n\n
+2.Sonar/Proximity Sensor.\n\n
+3.Light Detecting Sensors.\n\n
+4.A high rpm motor with attached propellers to shaft.\n\n
+5.A low rpm motor with attached rack and pinion mechanism.
+
+</string>
+    <string name="light">Light Detecting Sensors and light emitter pairs. Eg. LED and LDR ; LED and  Photodiode; IR LED and Photodiode. In this combination LED/IR emit light which is reflected by the surface and received by the LDR/Photo Diode. This generates a variable voltage across the LDR/Photo Diode which helps in differentiating colors.
+\n\nMicroprocessor/Microcontroller. Eg. ATmega/Arduino. This is the brain of the BOT. All the inputs we receive from the sensors are sent to the microcontroller. Microcontroller processes the data and gives the required output to the motors. All the commands are given in the form of a code to the microcontroller estimating all the possibilities. Detailed description of microcontroller is explained in microcontroller tutorial.
+\n\nSonar(s), which is attached to the left side of the bot. It sends and receives ultrasonic waves to detect the house.
+\n\nCandle detection can be done using light detecting sensors.
+\n\nMechanism to extinguish candle can be made using a high rpm motor and a propeller attached to it
+\n\nTo open the door of the house we can use a low rpm motor with attached rack and pinion.
+</string>
+    <string name="hov_intro">An earth-like planet was recently discovered with water in the liquid form on the surface, and further surface exploration of the planet is required. Build a vehicle capable of traversing the wackiest terrain, navigating through obstacles and travelling on both land and water in the event Hoverpod!
+</string>
+    <string name="hov_ps">The team has to build a manually controlled, wireless, hovercraft that has the capacity to move through a predefined path. The path would consist of varied terrain, having potholes, water and other kinds of terrains as specified in the arena below. The aim of the participant is to rake up the maximum points to win.
+</string>
+    <string name="hov_rule">1.Maximum number of participants allowed per team is 5. However, they need not to be from the same college/ university/institution.\n\n
+2.Only one person would control the hover craft from each participating team.\n\n
+3.Team members cannot touch the hovercraft once the event has started without the permission of organizing team member present there.\n\n
+4.No power supply would be provided during the run for any purposes, because the participants are required to bring wireless controllers, so no direct supply of power would be required.\n\n
+5.If participants are unable to bring wireless controller, RF transmitter and receiver will be provided by Team NSSC for use during the run.\n\n
+6.Also, it is the duty of the team members to get the requisite battery. Also voltage difference between any two points in the circuit of the robot cannot exceed 24 volts at any point of time.\n\n
+7.The bot should be capable of traversing through any smooth or rough terrain (like: potholes, water, concrete, grass, gravel etc.)\n\n
+8.Only Electric Motors have to be used in the hovercraft.\n\n
+9.LEGO kits and pre made mechanics set parts are not allowed to be used for any kind of mechanism on the bot. For further studies on these follow the link\n\n
+10.Teams qualifying for the first round only go to the second round.\n\n
+11.Rules are subject to change.\n\n
+12.Decision of Team NSSC will be final and binding under all circumstances.
+</string>
+    <string name="hov_r1">Before Run\n\n
+1.The robot has to be placed in the starting zone before the start of the event.\n\n
+2.The controller would be required to stand in a marked zone, from where the whole arena would be clearly visible, but the controller in any case cannot leave the marked zone and has to control the hovercraft from that place only for all the time.\n\n
+3.Other team members cannot touch the hovercraft without permission once the run has started.\n
+\n\nDuring Run\n\n
+The hovercraft is expected to perform the following task:\n\n
+1.Complete the run through the arena in 10mins.\n\n
+2.Do not touch obstacles placed in arena, and the walls of the arena.\n\n
+3.The whole track will have various checkpoints at regular intervals. The teams will be awarded marks according to the number of checkpoints cleared.
+</string>
+    <string name="hov_sc">1.Every team will get 200 points as starting bonus.\n\n
+2.Every team will get 800 points when the hovercraft finishes run.\n\n
+3.Time bonus will be awarded (in case when bot completes the task)\n\n
+4.Time Bonus= 600-(no. of seconds in which bot completes its run through the whole arena)\n\n
+5.Every team will be awarded with 50 points while clearing each checkpoint.\n\n
+6.Every collision with the wall of the arena attracts a penalty of 40 points, and every collision with the obstacles attracts a penalty of 70 points.
+</string>
+    <string name="hov_bot">1.l*b = 60 * 50 cm maximum allowable limit\n\n
+2.Brushless motors with rating no more than 1500kv can be used. Participants should have the Motor model with them to prove the kv value when asked to do so.\n\n
+3.ESC current ratings not to exceed 25 A.\n\n
+4.Power supply (battery) above 12 volts cannot be used.\n\n
+5.Minimum cushion height: 2 cm at full thrust.\n\n
+6.Maximum propeller diameter that can be used: 20 cm.
+</string>
+    <string name="hov_hwap">1.  First of all, we will learn how to make a simple hovercraft (without rc).\n\n
+2.  After that understanding the physics behind it. \n\n
+3.  Applying it to the Problem Statement.</string>
+    <string name="hov_mat">Piece of Plywood\n\n
+Tarp or plastic shower curtain\n\nLeaf Blower \n\n
+Duct Tape \n\n
+Staples/ Staple Gun\n\n
+Plastic Coffee Can Lid\n\nJigsaw\n\n
+Drills/ Screw\n\nMeasuring Tape\n\n
+String , Pencil\n\n
+Sandpaper</string>
+    <string name="hov_dir">
+1.  Take the plywood and locate its center
+of gravity. \n\n
+2.  Draw a Circle taking this point as the center of appropriate radius \n\n
+3.  Inside the leaf Blower, draw a circle of radius equal to that of leaf blower. \n\n
+4.  Use the jigsaw to cut the circle and the hole for the leaf blower using the pencil
+lines as the
+guidelines.\n\n
+5.  After completing the previous step you are going to place the tarp or the plastic shower curtain
+(smoother side down) underneath the circle (platform) that you created. Make sure that the tarp or
+curtain can completely cover the underside of the platform with about 8 inches of excess or so in
+order to attach it to the platform. Trim any excess that is not needed.\n\n
+6.  With the 8 inches of excess you are going to use the staple gun and staple the tarp or curtain to
+the platform.\n\n
+Don’t make the tarp tight around the circle. You want it to be loose that way when the
+air blows into the tarp it will be able to puf outward. Be sure not to cover the top of the hole meant
+for the leaf blower.\n\n
+7.  Once you have stapled the tarp or curtain all the way around the platform use duct tape and go
+over the edges of the tarp, where the staples are. This will help prevent the air from leaking out. \n\n
+8.  Flip the platform over so that way you are viewing the underside, the side where the tarp is
+covering the board entirely. Once again you are going to use the measuring tape and find the center
+of the platform and mark it. \n\n
+9.  Take the plastic, circular lid and place it directly in the center. You are then going to drill a hole in
+the center of both the lid and the platform. Secure the two together by screwing in a screw in the
+hole you just created. Screw in a total of five screws. It is ideal if the screws don’t stick up through
+the top side. \n\n
+10. Once the lid is secure to the platform with the tarp
+in between you are going to    create a total
+of six holes in the tarp on the underside (side you are currently looking at). The holes should be 5
+inches from the outer edge of the lid and should be evenly spaced among each other. The holes
+should have a
+diameter of inches or so.\n\n
+11. If you decided to use a plastic shower curtain you might want to secure the holes so that way
+they won’t rip even further. You can do this by securing them with duct tape by placing it around all
+the holes on the underside of
+the plastic curtain. \n\n
+12. After finishing the previous step you can fip it over, place the leaf blowers nozzle in the hole
+designated for it, turn the leaf blower on, and ride.</string>
+    <string name="hov_ph">First there is the concept of pressure, air pressure to be more exact. Air pressure played a huge role,
+along with the skirt. As the leaf blower continued to blow, air pressure inside the skirt would build
+up and when under pressure, the molecules would try to spread out. However, the skirt
+prevents
+that from happening so the end result is the air bursting out of the holes made at the bottom side of
+the skirt. If the air pressure inside the skirt rises to the point where the air molecules exert more
+force than gravity would on   the   hovercr
+aft   and   for   whoever   is   riding   it,   the hovercraft   is
+lifted.\n\n
+Second there is the concept of friction. Friction is the resistance to sliding motion between two
+surfaces that come into contact with each other. In our case with the hovercraf
+t, there needs to be
+as little friction as possible between the skirt and the ground   to   avoid   potential damage and to
+allow the rider to glide faster.\n\n
+Another physics concept would include torque. Torque is the amount of force acting on an object
+th
+at causes the object to rotate. The object then rotates about its axis. So in our case if the rider
+places more force on one side of the object after being pushed or while being pulled on the
+hovercraft the hovercraft will then spin.</string>
+    <string name="hov_rud">We have achieved providing lift to the robot. However, we will need to provide thrust for the
+successful motion of the bot. Note that for providing the
+thrust, we can attach a
+propeller facing
+back. With the help of this we are successful in providing thrust. But what about it’s direction? For
+that we need something called as the rudder assembly.
+    This rudder assembly can be made of any strong material like perforated plastic, etc. The end part of
+the rudder contains a crease from which it can bend to provide a direction. The bending of the
+rudders can be controlled by servo motors which ca
+n be controlled RC</string>
+    <string name="hov_pen">1.The participant must not touch the bot during the run without taking a timeout. Doing so will result in a penalty of 10 points.\n\n
+        2.If the hoverpod touches the track lines 5 points will be deducted for each intersection.\n\n
+3.If the hoverpod is half way out of the tracks, 10 points will be deducted each time.\n\n
+4.If the participants wishes to skip an obstacle and continue just after the obstacle, a specific amount of points will be deducted depending on the difficulty of the obstacle.</string>
+    <string name="title_activity_lift_off">Lift Off</string>
+    <string name="lift_intro">Necessity breeds invention, they say, and invent you must, for your rocket has run out of fuel, leaving you stranded on an alien planet! But you are not afraid, as you possess the knowledge of basic physics and aerodynamics. Presenting the event Liftoff, where you must design a rocket with water as propellant and blast off into space! </string>
+    <string name="lift_ps">Design and Build a water rocket which can be launched at any angle with respect to the horizontal. The teams will be participating in two rounds and the winners will be decided on the basis of rules given below.</string>
+
+    <string name="roc_spec">
+    1. Only plastic soft drink bottles are to be used for the rocket body.\n\n
+    2. The nose cone and fins should not be made of metal or any sharp surface. The rocket should be launched using a string from a safe distance, not with the help of hands. If a team fails to meet this requirement it will be disqualified from the event.\n\n
+    3. The water rocket must use only compressed ambient atmospheric air as its source of energy. Only tap water shall be used in the rocket, and the water shall be provided by the organizers. Water brought by the team shall not be allowed in the rockets.\n\n
+    4. The amount of water to be filled in the rocket body is left to the choice of the team.\n\n
+    5. The pressure inside the container (rocket body) before launch should not exceed 60 psi.\n\n
+    6. Launchers and pressure compressors will NOT be provided by the organizers.\n\n
+    7.The launcher to be constructed by the team should be fitted with an air compression device or pump for pressurizing the contents of the rocket body. A pressure-gauge having a minimum range of 0-100 psi to display the pressure of air in the water-rocket has to be attached to it too.\n\n
+    8. Rocket must be launched from a stationary position on a fixed launcher. (Slingshots, trebuchets, catapults, cannons, and all other forms of launcherboost assists are forbidden). In other words, the internal pressure of the rocket must be the only source of energy for the rocket.\n\n
+    9. The rocket may or may not split into two or more parts only during the flight, in such cases the range of the farthest part will be considered.\n\n
+    10.The teams may bring as many rockets as they wish but it should comply with the rules given above.\n\n
+    11. Decision of Team NSSC will be final.
+
+</string>
+    <string name="lift_rule">
+    1. Team Size: A team for Lift-off can have a maximum of 4 members. However, they need not be from the same college/university/institution.\n\n
+    2. The rocket must have a variable launching angle capability.\n\n
+    3. Burst Testing: All rockets will be tested to a pressure of 60 psi before they can be allowed to enter the competition. Teams are therefore advised to test their rockets to a pressure of 60 psi beforehand and also bring substitute rockets with them.\n\n
+    4. If a team\'s rocket fails the Burst Test, ONLY ONE extra rocket shall be allowed to be burst tested. If that rocket fails the burst test too, then no points will be awarded to the team.\n\n
+    5. Once a rocket passes the burst test, it shall be allowed only one attempt for launch.\n\n
+    6. Participants are allowed to use multistage water rocket.\n\n
+    7. In case of multistage water rocket maximum of 2 litres water is allowed inside the rocket.\n\n
+    8. The rules are subject to change.\n\n
+    9. In case of disputes, the decision of team NSSC is final and binding.
+</string>
+    <string name="lift_task">
+    1. The participants have to launch the rocket from the launching point and the rocket should land in the launch arena.\n\n
+    2. The launch arena will be a sector of circle with sector angle 45° and the launch will take place from the centre of the circle.\n\n
+    3. The range of flight is the distance between the point of launch and the point of first impact with the ground after launch.\n\n
+    4. In case of multi-stage water rocket range of flight will be calculated as the distance between the point of launch and impact of 2 nd rocket with the ground.
+</string>
+    <string name="lift_sc_r1">
+    1.Participants are scored primarily on the basis of their range of their flight.Greater the range, greater will be the points earned.\n\n
+    2. Rocket going out of the sector of an angle 45 degrees will not be awarded any points.\n\n
+    3. Rocket landing inside a sector of angle 15 degrees will be given additional points corresponding to distance of 25 meters.\n\n
+    4. No additional points will be awarded if the rocket lands on the border of inner 15 degree sector.
+
+</string>
+    <string name="lift_cert">
+    1. Top 3 teams will be awarded by Certificate of Excellence for the event.\n\n
+    2. Prize money worth 20,000 INR will be distributed to the winner teams.\n\n
+    3. The winner team has to complete the task, if they fail to complete the task then they will be not eligible for certificate.
+</string>
+    <string name="cs_pre">The New Frontiers program is a series of space exploration missions being conducted by NASA with the purpose of researching several of the Solar System bodies, including the dwarf planet Pluto. New Frontiers was built on the innovative approach used by the Discovery and Explorer Programs of principal investigator-led missions. It is designed for medium-class missions that cannot be accomplished within the cost and time constraints of Discovery, but are not as large as Flagship-class missions. Juno is the next step in realising this program.\n\n
+    Juno is a NASA space probe orbiting the planet Jupiter. It was built by Lockheed Martin and is operated by NASA\'s Jet Propulsion Laboratory. Juno was selected in 2005 as the next New Frontiers mission after New Horizons. The desire for Jupiter was strong in the years prior to this, but there had not been any approved missions. The spacecraft was launched from Cape Canaveral Air Force Station on August 5, 2011, as part of the New Frontiers program, and entered a polar orbit of Jupiter on July 5, 2016, to begin a scientific investigation of the planet. After completing its mission, Juno will be intentionally deorbited into Jupiter\'s atmosphere\n\n
+Juno\'s mission is to measure Jupiter\'s composition, gravity field, magnetic field, and polar magnetosphere. It will also search for clues about how the planet formed, including whether it has a rocky core, the amount of water present within the deep atmosphere, mass distribution, and its deep winds, which can reach speeds of 618 kilometers per hour (384 mph). The spacecraft will study the lights around Jupiter\'s north and south poles (auroras), too. Juno is powered only by solar arrays, commonly used by satellites orbiting Earth and working in the inner Solar System, whereas radioisotope thermoelectric generators are commonly used for missions to the outer Solar System and beyond. For Juno, however, the three largest solar array wings ever deployed on a planetary probe play an integral role in stabilizing the spacecraft as well as generating power.
+    </string>
+    <string name="cs_ps">1..Discuss the financial constraints on the mission and how they were overcome.\n\n
+2.Why was the United Launch Alliance Atlas V-551 used to launch the juno orbiter? How is the launch vehicle for a space mission selected?\n\n
+3.Discuss about the trajectory followed by the orbiter before reaching Jupiter.\n\n
+4.How does a gravity flyby assist work? Talk about its advantages and disadvantages.\n\n
+5.Why does the spacecraft\'s pointing become stable on rotating the spacecraft?\n\n
+6.What were the problems faced by the thrusters and engines? Why the orbiter was run on safe mode? How can we avoid such problems?\n\n
+7.Explain how the instruments on-board the Juno work. Stress on the following instruments - Gravity Science, Magnetometer, Microwave Radiometer, Jupiter Energetic Particle Detector Instrument (JEDI), Jovian Auroral Distribution Experiment (JADE), Radio and Plasma Wave Sensor, Ultraviolet Spectrograph, Jovian Infrared Auroral Mapper(JIRAM) and JunoCam.\n\n
+8.How is the mission expected to determine that which planet was formed first? How will it help test relativity using interplanetary laser ranging?\n\n⦁9.Suggest modifications and improvements to the instruments namely:\n
+<ul>\t⦁<li> Magnetometer\n</li>\t<li>Microwave Radiometer\n</li>\t<li>Jupiter Energetic Particle Detector Instrument (JEDI)\n</li>\t<li>Radio and Plasma Wave Sensor\n</li>\t<li>Ultraviolet Spectrograph\n</li>\t<li>Jovian Infrared Auroral Mapper(JIRAM)\n</li>\t<li>JunoCam to increase efficiency and accuracy of data gathered. Also, what extra feature (Detector as well as instrument) you think could have been added to JUNO in order to gather extra information?\n\n</li></ul>
+        10. What is the next objective of the New Frontier Program?</string>
+    <string name="cs_abt_rp"> <ol>
+        <li>&#10625;  <b>Format:</b> The online report must be submitted in <font color="red">PDF</font> formats only. Report must be submitted in English language. All other formats will automatically be rejected.</li>
+        \n\n<li>&#10625;  <b>Page  Limit:</b>  The report must not exceed <font color="red">25</font> pages which include front page, index,  appendix and bibliography. The font used for the writing the content should be <font color="red">12-14.</font> </li>
+
+
+    </ol></string>
+    <string name="cs_rule">
+                \n\nTeam Size: The maximum permissible number of members in a participating team is 4. However, they need not belong to the same institute/college/university.
+                \n\nTop teams will be selected and they will present their reports in NSSC\'17 at IIT Kharagpur.
+                \n\nAll teams must submit the digital version of their proposals latest by , along with the names of the participants and their complete details filled up in the team formation portal.
+                \n\nHowever, the presentation for the final round will be in PowerPoint (PPT, PPTX) format (Please note carefully) and will be based on the problem statement released on the first day of NSSC\'17.
+                \n\nThe diagrams should be neat and clearly labeled and images must be given credit.
+                \n\nYou may draw your own labelled illustrations wherever required and embed paper work as images wherever necessary.
+                \n\nThe plagiarism in content shall not be accepted and the entry shall be cancelled.
+               \n\nParticipants are not allowed to change their team members. Members attending the event (if selected) must be the same students who registered as a team at the time of report submission. If any member fails to report in NSSC, he/she shall not be awarded the participation certificate.
+         </string>
+    <string name="cs_jud"> The event consists of 100 points with report consisting of 30 points and presentation 70 points (if selected for final round).
+\n\nThe teams have to wrap up the presentation within the given limits. A warning bell shall be issued one minute before the end of proposed time. </string>
+
+
+    <string name="tshirt_intro">For those with an artistic side, there is the T-Shirt Designing competition. Participants have to design a space-themed T-shirt using design tools like Adobe Photoshop or Adobe Illustrator.
+	There are special prizes for most likes and shares, which will take the competition to the next level on social media.</string>
+    <string name="tshirt_how_to_e">Applications will only be accepted from June 16th, 2017 to August 10th, 2017.The event is open for all.\n\n
+E-mail your submissions to tshirt@nssc.in\n\n
+The tee-design must be based on the theme "Space".\n\n
+All entry emails should have the subject line "T-shirt Design Contest Submission - "First Name, Last Name, College Name."\n\n
+Submit the front as well as back design for the tee\n\n
+Attach high resolution JPEG file of your designs as the entries.\n\n
+You can submit up to two designs per person. If you submit more than two, only your first two submissions in order of date and time will be considered.\n\n
+The following details must be mentioned in the E-mail:\n\n
+Name\n\n
+E-mail Id\n\n
+Phone Number\n\n
+Contact Address\n\n
+College (If Applicable)\n\n
+Rules are subject to change.\n\n
+Decision of Team NSSC will be final and binding under all circumstances.\n\n </string>
+    <string name="tshirt_rule">1.Submit only original designs. These designs must not contain copyrighted material and they cannot have previously won any awards.\n\n
+2.Please be prepared to submit the original Illustrator or Adobe Photoshop file of your design in case your artwork is chosen.\n\n
+3.The design must not contain more than 3 solid colours apart from the background color. The background color of the t-shirt is not included in 3 solid colors.\n\n
+4.You are not allowed to use any gradients on T-Shirts or on designs. You are allowed to use only solid colors.\n\n
+5.Scanned copies of hand-made designs are also acceptable. However, we will prefer digital designs.\n\n
+6.Contestants retain all ownership rights over their submissions, however, as a condition of participation, the contestants hereby grant a perpetual, irrevocable, non-exclusive license to the organisers of NSSC to reproduce the design and use it for their own marketing purposes. NSSC shall retain exclusive rights over the winning entries.\n\n
+7.NO ADDITIONAL MATERIALS (VIDEOS, SAMPLES, ETC) WILL BE ACCEPTED WITH YOUR SUBMISSION.\n\n
+</string>
+    <string name="tshirt_R_and_sel">
+Entries will be reviewed by NSSC\'17 Organizing Team.\n\n
+Entries will also be uploaded on NSSC\'17 Facebook page by NSSC\'17 Team. Evaluation will also consider the public interest that each submission generates, measured through likes and shares along with the appreciation in the form of comments.\n\n
+You can also tag your friends in the comments section (NOT in the pic) in order to make it more viral.\n\n
+The likes and shares will be taken into account till 11:59 pm, 10th August,2017.\n\n
+There will be one grand prize winner, one honourable mention and consolation prizes for other unique and creative submissions that also includes maximum likes, maximum shares.\n\n
+The judges\' panel includes members of the NSSC\'17 creative and design teams.\n\n
+Judging criteria is based on: creativity, originality, and content apart from public reviews.\n\n
+Winners? entry may not necessarily be printed.\n\n
+Finalists will be required to provide reference files (i.e., preliminary drawings, source for idea).\n\n
+</string>
+    <string name="tshirt_prize">The grand prize winner will receive prizes worth Rs. 3000 and a printed T-shirt of NSSC\'17.\n\n
+The honourable mention will receive prizes worth Rs. 2000, and a printed T-shirt of NSSC\'17.\n\n
+Consolation prizes and Goodies worth Rs 5000 and T-Shirts of NSSC\'17 will be awarded based on the creativity, uniqueness and originality of the t-shirt designs.\n\n
+</string>
+
+
+    <string name="pp_intro">The Large Hadron Collider at CERN was scheduled to begin colliding protons in 2009. Two of its main \n\n
+	goals are to look for both the Standard Model\'s Higgs particle and super symmetry\'s sparticles. An
+	objective overview of these theories, along with string theory, reveals the precarious balancing act that
+	high-energy physics is in because of theorists\' attempts to explain away fine-tuning which points to an
+	intelligent designer. Ironically, their foundational theory is rooted in a faith in very large numbers
+	that they hope will cancel out impossible odds\n\n
+	A study by the University of California, Irvine, published in the journal Physical Review
+	Letters, has suggested there may be a fifth force of nature that could be found by the large hadron
+	collider in Geneva. Study lead author Jonathan Feng said: "If true, it's revolutionary.\n\n "For decades, we\'ve known of four fundamental forces: gravitation, electromagnetism, and the strong and weak nuclear forces."\n\n"If confirmed by further experiments, this discovery of a possible fifth force would completely
+change our understanding of the universe, with consequences for the unification of forces and dark matter."
+
+</string>
+    <string name="pp_ps">⦁ Discuss briefly the experimental setup - how does LHC implement the respective detectors? Mention the individual parts and their very outline working \n\n
+	principle and clearly mention the main experimental parts:\n\n
+⦁ ALICE\n\n
+⦁ ATLAS\n\n
+⦁ CMS\n\n
+⦁ LHCb\n\n
+⦁ LHCf\n\n
+⦁ TOTEM\n\n
+
+⦁ Give the detailed description of the following engineering concerns in LHC and present your own ideas regarding their improvements/replacements to increase more precision and at the same time lower the finances. Give a clear contrast between the present implementation and your idea:\n\n
+⦁ Quadrupole magnets used in linac\n\n
+⦁ Beam dumping by Super-proton synchrotron\n\n
+⦁ Luminosity of synchrotron technology\n\n
+⦁ The cooling system\n\n
+⦁ Noise reduction and outside field perturbation\n\n
+⦁ Superconductivity used and how to overcome magnetic quench\n\n
+⦁ How does LHC detect the collisions? Which computer systems are used?\n\n
+⦁ Is there an alternative way to strip off electrons from hydrogen atoms at the very first stage?\n\n
+Describe a gravitational wave event in sequence of its detection and at what stages the technology can be altered to a more sensitive and compatible one.\n\n
+⦁ Address the following in concern of Dark-matter :\n\n
+⦁ What is the problem of Dark Matter in Cosmology? How is it related to LHC?\n\n
+⦁ Which detector is concerned with Dark Matter detection? On what major principle it is based?\n\n
+⦁ Luminosity of synchrotron technology\n\n
+⦁ How is the detection, if successful, supposed to explain the way our universe evolves?\n\n
+⦁ Mention the major challenge this detector faces due to long exposures and radiation at the intersection point.\n\n
+
+⦁ How is ALICE, which aims to create a quark-gluon plasma, designed? What conclusions can we supposedly draw from it regarding the birth and fate of the universe?\n\n
+
+⦁ How is the tracking done in ALICE? How ALICE possesses precision over the rapidly decaying trajectories for the particles? How can it be improved?\n\n
+
+⦁ Discuss the physical significance of extra dimensions. How are gravitons supposed to be detected and how can that provide necessary information for the existence of extra dimensions? Is it related to the trending String Theory?\n\n
+
+⦁ Why was LHC shut down in its first run? How was the accident tackled? What are the new highlights from the last 2016 session of full run of LHC?\n\n
+
+⦁ Comment on the detection and image processing systems used to detect the particles that may be produced. How vast and powerful is the computing and analysis technology developed at CERN?\n\n
+
+⦁ How do scientists rule out possibility of formation of black holes and strangelets as each collision has high energy involved?\n\n
+
+⦁ How do scientists dump all the stored magnetic energy in case of an operational failure (some fault in the powering systems) since each magnet has almost zero resistance but 15H inductance is present as i = 13-15kamps so magnetic energy will be (½) LI2 which is around 10GJ?\n\n
+
+⦁ What are collimator systems in LHC and what does it do? How does quadrupole magnetism help in beam focusing in LHC? </string>
+    <string name="pp_calculation">⦁ If LHC is considered a classical cyclotron, then determine:\n\n
+⦁ If a proton is accelerated in this setup to achieve energy of 1 Tev (given magnetic field of 5 T) Calculate the radius of the path followed by \n\n
+the proton at this energy.\n\n
+⦁ Calculate cyclotron resonance frequency in the above given conditions.\n\n
+⦁ As 1Tev energy is obviously relativistic for a proton so if LHC is considered to be an isochronous cyclotron (given initial magnetic field B0 =3 T)\n\n
+⦁ What is the resonance frequency of the isochronous cyclotron?\n\n
+⦁ What is the radius of path followed by proton at 1Tev kinetic energy in isochronous cyclotron with above conditions?\n\n
+⦁ The team can come with a system which can include multiple prototypes to make moments of terror to moments of breathless cheers.\n\n
+⦁ If LHC ring is considered to be a classical cyclotron then at which radius for a mole of proton in cyclotron does thermonuclear fusion is plausible \n\n(Temperature required for a thermonuclear fusion in a collision is 108 Kelvin)?</string>
+    <string name="pp_rules">
+⦁ Team Size: The maximum permissible number of members in a participating team is 3. However they need not belong to the same institute/college/university.\n\n
+The competition shall be held in 2 rounds. The first round shall be online where participants have to submit the report online.\n\n
+⦁ Top 8 teams will be selected and they will present their reports in NSSC\'17 at IIT Kharagpur.\n\n
+⦁ All teams must submit the digital version of their proposals latest by 10th August, along with the names of the participants and their complete details filled up in the team formation portal.\n\n
+⦁ The report must not exceed 30 pages which include front page, index, appendix, bibliography and references used (if any); with average font size.\n\n
+⦁ The online submission report should be in PDF format only. All other formats will automatically be rejected.\n\n
+⦁ However, the presentation for the final round will be in PowerPoint (PPT, PPTX) format. (Please note carefully).\n\n
+⦁ The diagrams should be neat and clearly labeled and images must be given credit.\n\n
+⦁ You may draw your own labelled illustrations wherever required and embed paper work as images wherever necessary.\n\n
+⦁ The plagiarism in content shall not be accepted and the entry shall be cancelled.\n\n
+⦁Participants are not allowed to change their team members. Members attending the event (if selected) must be the same students who registered as a team at the time of report submission. If any member fails to report in NSSC, he/she shall not be awarded the participation certificate.</string>
+    <string name="pp_deadline">
+        All the entries must be submitted on or before 10th August.
+</string>
+    <string name="pp_judging">⦁ The event consists of 100 points with report consisting of 30 points and presentation 70 points.\n\n
+⦁ The presentation time shall be 20 minutes.\n\n
+⦁ The teams have to wrap up the presentation within the given limits. A warning bell shall be issued one minute before the end of 20 minutes.\n\n
+⦁ Feasibility -> 15 points\n\n
+⦁ Innovation -> 20 points\n\n
+⦁ Design -> 10 points\n\n
+⦁ On spot answers -> 25 points
+</string>
+    <string name="pp_certi">
+Top 3 teams will be awarded by Certificate of Excellence for the event.\n\nPrize money worth 15,000 INR will be distributed to the winner teams.
+   </string>
+    <string name="title_activity_astro_photography">Astro - Photography</string>
+
+    <string name="ap_intro">A very prominent event hosted on Facebook inspired from Astronomy Pictures of the Day(A.P.O.D.) of NASA. This event is open for
+	amateur photographers from all over the country who love to capture the elegance of the night sky. Under the blanket of beautiful stars, we all witness the exquisite beauty of universe which hides boundless mysteries underneath. To provide a platform to all amateur photographers
+	across the nation to showcase their photography skills, NSSC\'17 presents ASTOPHOTOGRAPHY. Winning photos will also be displayed in an exhibition in
+	NSSC\'17.
+
+</string>
+    <string name="ap_rules">Amateur Astrophotography is a photography competition , so by entering you agree to the following competition rules.</string>
+    <string name="ap_organizer">The Amateur Astrophotography Competition is organized by Space Technology Students\' Society, IIT Kharagpur.
+</string>
+    <string name="ap_eligibility">
+i.  Entrants must belong to the age-group of 15-25. Entrants may submit up to five separate entries to the Amateur Astrophotography Competition 2017.
+\n\nii.   By submitting an entry, each entrant agrees to the competition rules, and warrants that they have secured the permission of the copyright owner (if not themselves) to enter the image into the competition.\n\n
+iii.   By submitting photos to the competition you confirm that the photo:\n\n
+
+\ta.   Was taken and processed by you, or by a group of which you are an active participant\n\n
+\tb.  Is your or your group\'s original work, or\n\n
+\tc.  Does not infringe the copyright or any other rights of any third party (particularly in relation to the use of robotic telescopes)
+\td.  Does not contain any obscene or defamatory content or material\n\n
+\tiv.  Digitally enhanced, composites are eligible for entry to the competition, but original Photos must be attached with the entry. The judging panel may ask about your processing method if your photo is shortlisted for a prize.\n\n
+\tv.  If the Image is not digitally enhanced, participant has to upload the same image twice in both categories, viz. Original Image and Entry Image.
+\tvi.  The following images are not eligible for entry to the Amateur Astrophotography Competition:\n\n
+
+a.  Photos that have previously been submitted to a news/picture agency for distribution.\n\n
+b.  Photos taken more than two years before the competition\'s closing date (i.e. taken before 20th June 2015).
+</string>
+    <string name="ap_h0w_to_enter">
+       Entries to the Amateur Astrophotography Competition 2017 competition open on 20th June 2017 and must be received by 10 August 2017.
+</string>
+    <string name="ap_entries">i.   To make sure that your photos are eligible for the competition shortlist, please ensure:\n\n
+
+a.   you have completed the relevant online application form\n\n
+b.   you have a high-resolution version (atleast 1080p) of your photo available. This is to ensure that your image can be reproduced in the exhibition and for promotional purposes, should it be awarded a prize.\n\n
+ii.   If your photo is shortlisted, we will contact you via the email address you provided on the online entry form and ask you to:\n\n
+
+a.  Supply a high resolution version of your photo. This must be exactly the same image as the one originally entered, albeit a larger version. No retouching or altering of the image is permitted after the image has been shortlisted.
+\n\nb.   supply any missing information about your image, if needed.
+\n\nc.   Declare if your photo has been digitally manipulated and, if so, supply details of the processing method. Digitally manipulated photos are eligible but the judging panel will want to take your process into consideration when choosing winning photos.
+
+</string>
+    <string name="ap_copyright">
+i.    Space Technology Students Society is dedicated to supporting public understanding and education of science. The images submitted to the Amateur Astrophotography Competition serve as key resources to promote astronomy photography in practice and in order for us to do this we need to be able to use your image(s) in certain ways.\n\n
+ii.    Entrants will retain copyright and moral rights in their submitted images. In all instances, the copyright holder will be credited, wherever practicable, when the image is used and published by spAts. We will use your first and last name as supplied during the entry process. Although spAts will always supply the correct information to third parties (for example to press / media), it cannot accept responsibility for any credit line errors or omissions by these parties.\n\n
+iii.   By entering, all entrants grant spAts a non-exclusive, worldwide, royalty-free right to use, reproduce, modify, adapt, and publish in perpetuity, each image entered into the competition:\n\n
+
+a.    in exhibition displays, in relation to both the Amateur Astrophotography Competition 2017 and exhibition and related future exhibitions and displays.\n\n
+b.    in promotional, press and marketing materials to promote and publicize the 2017 competition and exhibition, as well as future related exhibitions, and more generally to promote the understanding of astronomy in general terms as spAts sees fit\n\n
+c.    in spAts publications about the Amateur Astrophotography Competition 2017 competition and exhibition and future related exhibitions.\n\n
+iv.    Please do not submit your contribution to the competition if you do not wish to grant these rights to spAts.
+   </string>
+    <string name="ap_winning_image">i.    Total prizes worth INR 10,000/- at stake.\n\n
+ii.   There will be 3 Prizes. Winner, 1st runner up and 2nd runner up.\n\n
+iii.    Consolation Prizes will be given to entries with Maximum likes, shares and most appreciated Photo in comments.\n\n
+iv.    Winners get free entry in NSSC\'17.\n\n
+v.    Top 25 Images will be displayed in exhibition hosted by spAts in NSSC\'17.\n\n
+vi. Winners will be announced on our Facebook Page and website in the month of August.
+    </string>
+    <string name="ap_judging">i.    Entries will be uploaded by NSSC on our Facebook Page for Judging.\n\n
+ii.    Space Technology Students Society will be the Judging Panel. They might appoint a panel not related spAts to judge the entries.\n\n
+iii.    Judging will be based on technical skills, artistic merit and originality.\n\n
+iv.   Decision of Space Technology Students Society will be final and binding to all.
+    </string>
+    <string name="ap_invalid_entries">i.   All entries to the competition must be submitted via the entry portal on our website will not accept images submitted by any other\n\n means.\n\n
+ii.   Maximum allowable image size in 5 MB.\n\n
+iii.   No responsibility can be accepted for entries which are lost, delayed, corrupted, damaged, misdirected or incomplete or which\n\n cannot be delivered for any technical, delivery or other reason. Proof of sending will not be accepted as proof of receipt. spAts \n\ncannot guarantee continuous, uninterrupted or secure access to the website.\n\n
+iv.   By submitting your photo for entry into the Amateur Astrophotography Competition 2017 and for publishing on the website,\n\n you confirm that the content of the photo is and will not be taken to be obscene, racist, pornographic, indecent, harassing,\n\n threatening or offensive.\n\n
+v.   SpAts reserves the right to pre-vet and/or moderate photos submitted and reserves the right to not display uploaded content\n\n to the website or remove, suspend or disable access to photos, at any time, at its sole discretion, without liability or prior notice.
+    </string>
+    <string name="ap_liablities">spAts reserves the right to cancel the Amateur Astrophotography Competition and/or exhibition at any time owing to circumstances outside its reasonable control and where circumstances make this unavoidable, but will always use all reasonable endeavors to minimize the effect on participants to avoid undue disappointment.</string>
+    D
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="title_activity_developer">Developer</string>
+    <string name="cad_rules">
+    1.Maximum allowable team size is 3.The members need not be of the same institute.\n\n
+    2.Total Time for the Overnight event is 8 hours with half hour extra for introduction.\n\n
+    3.Only one design is allowed per team.\n\n
+    4.The participant have to bring their own laptop with per-installed CAD software.\n\n
+    5.The software allowed for event are PTC Creo, Solid Works, AutoCAD, Catia.\n\n
+    6.The participant will be provided with standard AC power source and Internet for any assistance in designing, however taking help from anyone other person or outsourcing their design will lead to disqualification.\n\n
+    7.Rules are subject to change.\n\n
+    8.Participant have to submit the CAD and design presentation to validate their design.
+</string>
+    <string name="title_activity_guest_lecture">Guest Lectures</string>
+    <string name="title_activity_guest_lectures">Guest Lectures</string>
+    <string name="title_activity_rc">RC Flying Wing</string>
+    <string name="title_activity_bot">WaterBotix</string>
+    <string name="title_activity_gw">Gravitational Waves</string>
+    <string name="title_activity_ballooning">High Altitude Ballooning</string>
+    <string name="title_activity_exhibition">Exhibitions</string>
+    <string name="drone">MAN OF DRONES Showing us that technology has permeated every aspect of life on earth and has become seamless enough to deceive us into believing virtuality as the new reality, this exhibition of Smart Drone will leave you gaping in awe. Imagine a drone that recognises you and can take off From your hand, controlled through by your Palm in all possible directions as well follow you wherever you go , take pictures videos by your gestures and land on your hand, all on its own.</string>
+    <string name="hover">Smart Vehicle expo : Hoverboard After roller skates this is the glimpse of the future “the smart self balancing vehicle”. The only difference from the Back To The Future hover-skateboards is that this device have wheels still. If it could fly this would be “the 21st century thing”. This vehicle can read your thoughts and balance the board itself and run with your thoughts. With some practice you can make it work like a charm and command it with your mind. Come and Experience the smart vehicle that which humans in future might be more interested in this sort of transportation means rather than cars or buses to avoid traffic jams and reaching office in time having fun.Human would love to reach office and perform daily chores using the Smart Vehicles sometime in the near future.</string>
+</resources>

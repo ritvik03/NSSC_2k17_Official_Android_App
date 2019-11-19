@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="in.nssc.test3.Directions"
+    tools:showIn="@layout/activity_directions"
+    android:background="@drawable/background">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="Arena and Events"
+            android:textSize="30sp"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/head1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Vikramshila"
+                android:onClick="maptoVikramshila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#004e372e"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:text="Vikramshila"
+                android:layout_marginLeft="30dp"/>
+            <Button
+                android:id="@+id/Kalidas"
+                android:onClick="toKali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#004e372e"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:text="Kalidas Auditorium"
+                android:layout_gravity="right"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="30dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food and Snacks"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/head3"
+            android:layout_below="@+id/Vikramshila"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/CCD"
+                android:onClick="maptoCCD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#004e372e"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:text="CCD"
+                android:gravity="left"
+                android:layout_alignBaseline="@+id/bask"
+                android:layout_alignBottom="@+id/bask"
+                android:layout_alignRight="@+id/dream"
+                android:layout_alignEnd="@+id/dream" />
+            <Button
+                android:id="@+id/Tikka"
+                android:onClick="maptoTikka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Tikka"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:layout_alignTop="@+id/foodcity"
+                android:layout_alignRight="@+id/superduper"
+                android:layout_alignEnd="@+id/superduper" />
+
+            <Button
+                android:id="@+id/heritage"
+                android:onClick="maptoHeritage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Heritage"
+                android:layout_marginRight="10dp"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_alignBaseline="@+id/subway"
+                android:layout_alignBottom="@+id/subway"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            <Button
+                android:id="@+id/dream"
+                android:onClick="maptoDream"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Dreamland"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp"
+                android:layout_below="@id/CCD" />
+            <Button
+                android:id="@+id/subway"
+                android:onClick="maptoSubway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Subway"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_alignBaseline="@+id/dream"
+                android:layout_alignBottom="@+id/dream"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/PAN"
+                android:onClick="maptoPan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Pfc"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/foodcity"
+                android:layout_alignEnd="@+id/foodcity" />
+            <Button
+                android:id="@+id/iosys"
+                android:onClick="maptoIosys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Iosys"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp"
+                android:layout_below="@id/dream" />
+            <Button
+                android:id="@+id/foodcity"
+                android:onClick="maptoFCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Food City"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_alignBaseline="@+id/iosys"
+                android:layout_alignBottom="@+id/iosys"
+                android:layout_alignLeft="@+id/subway"
+                android:layout_alignStart="@+id/subway" />
+            <Button
+                android:id="@+id/superduper"
+                android:onClick="maptoSuper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Super Duper"
+                android:layout_marginRight="10dp"
+                android:shadowColor="#ffffff"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            <Button
+                android:id="@+id/veggies"
+                android:onClick="maptoVeg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Veggies"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/iosys"
+                android:layout_alignLeft="@+id/iosys"
+                android:layout_alignStart="@+id/iosys" />
+            <Button
+                android:id="@+id/billo"
+                android:onClick="maptoBillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Billoo\'s"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            <Button
+                android:id="@+id/bask"
+                android:onClick="maptoBask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Baskin and Robbins"
+                android:background="#0001579b"
+                android:textColor="@android:color/white"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Places to visit"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/head4"
+            android:layout_below="@+id/veggies"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/MainBuilding"
+                android:onClick="maptoMainBuilding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="#00e91e63"
+                android:textColor="@android:color/white"
+                android:text="Main Building"
+                android:layout_marginLeft="22dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="22dp" />
+
+            <Button
+                android:id="@+id/Nehru"
+                android:onClick="maptoNehru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="#004e34fe"
+                android:textColor="@android:color/white"
+                android:text="Nehru Museum"
+                android:layout_alignBaseline="@+id/MainBuilding"
+                android:layout_alignBottom="@+id/MainBuilding"
+                android:layout_centerHorizontal="true" />
+
+
+            <Button
+                android:id="@+id/GPark"
+                android:onClick="maptoGPark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="#004e34fe"
+                android:textColor="@android:color/white"
+                android:text="Gymkhana lake"
+                android:layout_marginRight="23dp"
+                android:layout_alignBaseline="@+id/Nehru"
+                android:layout_alignBottom="@+id/Nehru"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="23dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/TechM"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#004e34fe"
+            android:onClick="maptoTechM"
+            android:padding="10dp"
+            android:text="Tech Market"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\n "/>
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

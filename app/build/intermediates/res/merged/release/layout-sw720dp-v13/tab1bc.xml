@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bc_intro"
+                android:background="#9004517e"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:id="@+id/textView14" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prizes worth INR 10,000"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Problem Statement"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/ps_col"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bc_ps"
+                android:background="#9004517e"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:id="@+id/textView15" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rules"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_margin="20dp"
+                android:id="@+id/rule_col"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bc_rules"
+                android:background="#9004517e"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:id="@+id/textView16" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prerequisite Knowledge:"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView18"
+                android:layout_marginTop="17dp"
+                android:layout_below="@+id/textView17"
+                android:layout_alignLeft="@+id/textView17"
+                android:layout_alignStart="@+id/textView17"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arduino Programming.\n
+Control systems.\n
+Light Intensity as motion feedback."
+                android:textColor="#ccffffff"
+                android:layout_margin="20dp"
+                android:background="#9004517e"
+                android:id="@+id/textView19"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

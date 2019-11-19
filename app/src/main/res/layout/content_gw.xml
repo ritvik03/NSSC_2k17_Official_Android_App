@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="in.nssc.test3.GW"
+    tools:showIn="@layout/activity_gw"
+    android:background="@drawable/background">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.3"
+                android:text="Gravitational Wave"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"/>
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/gw1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The session will provide a hands-on training session on working with the open science data from LIGO. Learn an analogy as to how the raw signal from Gravitational waves was interpreted at LIGO observatory. The participant should have a laptop with Python package installed. In addition, the participant needs to install two Python modules, matplotlib and numpy.
+
+The session will start with a brief introduction to gravitational waves and then a hands on data analysis tutorials will be provided.
+
+Registration for the workshop will be take place in IIT Kharagpur (offline registration). There is a registration limit of 60 participants for this workshop (priority limit based on first come first serve basis). Participants must have Python installed in their laptop with the aforementioned modules. "
+                android:textColor="#ffffff"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

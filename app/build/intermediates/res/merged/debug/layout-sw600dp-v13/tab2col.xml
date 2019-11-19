@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:text="How to Approach"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/col_hwap"
+        android:textColor="#ccffffff"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#9004517e"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView17" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materials"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:id="@+id/sc_col"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView18"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/col_mat"
+                android:textColor="#ccffffff"
+                android:layout_margin="20dp"
+                android:background="#9004517e"
+                android:layout_below="@id/sc_col"
+                android:id="@+id/textView19"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mechanisms"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:id="@+id/textView20"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autonomous"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:id="@+id/textView23"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/col_mech"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:background="#9004517e"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="following code can be burnt on Arduino"
+                android:textColor="#ffffff"
+                android:layout_margin="20dp"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/arduino_code_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code"
+                android:textColor="#ccffff"
+                android:background="#30ffffff"
+                android:layout_marginLeft="20dp"
+                android:onClick="ard_code"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Computer Vision"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:text="Color Detection\n
+For lighting LEDs corresponding to the color of the planet we need to first detect the color of planet. Have separate windows for each colour so that colors in these particular range correspond to the color of the LEDs.\n\n
+Shape Detection \n\
+We need to identify obstacles (asteroids) that are triangular and planets that are circular in shape. A good approach to solve this problem would be to segment out the shapes from the image that is taken by the camera. A method called hough circles could be used to figure out the planets.\n\n
+Path Planning\n
+The problem can be modelled as weighted graph, such that planets depict the graphs vertices and the path are graph’s edges. It is a minimization problem starting and finishing at specified vertices after having visited each other vertex exactly once. There are several methods to deduce the optimum path for traversal, one of which is A* (“A star”).\n\n
+
+A* (A star) \n It is best-known form of Best First search.
+The secret to its success is that it combines the pieces of information that Dijkstra’s algorithm uses (favoring vertices that are close to the starting point) and information that Greedy Best-First-Search uses (favoring vertices that are close to the goal).\n
+
+A* balances the two as it moves from the starting point to the goal. Each time through the main loop, it examines the vertex n that has the lowest f(n) = g(n) + h(n).\n\n
+
+g(n) : the exact cost of the path from the starting point to any vertex n.\n
+h(n) : represents the heuristic estimated cost from vertex n to the goal.\n
+f(n) : estimated total cost of path through n to goal. It is implemented using priority queue by        increasing f(n).
+
+"
+                android:textColor="#ccffffff"
+                android:background="#9004527e"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pseudo code"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:id="@+id/sc2_col"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView18"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_marginLeft="20dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pseudo code"
+                android:textColor="#ccffffff"
+                android:layout_margin="20dp"
+                android:background="#30ffffff"
+                android:padding="5dp"
+                android:layout_below="@id/sc_col"
+                android:onClick="psedo_code"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tracking bot"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A marker can be used to track the position of the bot throughout the run.
+The marker will contain 2 rectangles of different RGB values.\n
+
+Scan the marker to find the center of the marker and the two rectangles which can be differentiated by color.The centre of the marker will determine the position of the bot and the line joining the centre of the two rectangles will provide its direction.
+"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:background="#9004517e"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="like this"
+                android:textColor="#ffffff"
+                android:layout_margin="20dp"
+                android:textSize="15sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ct_head"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""/>
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>

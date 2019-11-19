@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/b73d2789a9991723702ca7f4c4be44d9786c5ebd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/classes_5e1411490fae7f1b5da617535ab1ad3331dc400b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1_4bcf6c42009dcc5d8f1f7912916554a9d30940b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/336078e8d0c6370baec24431795b59f7a67270df/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_8efba63990873fce0df423da1702f9de0ecef0a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/d0220e902d85cca9a899a1d8c1c7d6cf2a707a25/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_6cb75f2e615fde185a865abe942d80c933462fe3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/AndroidStudioProjects/test3/app/libs/glide-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/glide-4.0.0_7f523cdc34c2d7eee8835cbbafd49cb65324590c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1_ebfa430d8aa349e33e40c87868d096f8e1ebeecb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.3_59e8d62d9ac18d0d366e64fc5e0ceba6ed93b598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/junit-4.12_b7b2656b85d520c3403820c904245b5e135de006.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/369f3a40ab5621d499196cbc96f4c42e7c01e2c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_99c473e9a9f8dbcd9b36a354c7a20614804d6963.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/c664811f8024a3a6f552c349f908fcb81dab1c3d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_1d731e4de5468b60090bbbdba05e4fb12b425159.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/AndroidStudioProjects/test3/app/libs/svg-android-2.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="608cd23edf678f7b1b8dc61334631d8b06c91a02">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/svg-android-2.0.3_de6496bd8dd9ff715958dc4b316f6ff1621b1c29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/332f219a701f8e3095f66fa4189da57add56052b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_3f3bdbc40b728a80b6b3db90fdaf0cdf92b6c654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/91228ffe47e5b5d8cfb2b907a7d6d8757a8a6a90/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_9ae84d7a65b5438dde5d9d93c0f631285889892e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/eece72d6bee82385dff708a0cb323a5ff9087466/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/classes_10ba54f045f8b70b370bf3492d0a3d51b05bc4af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/39e6b3f3052f936db955b27b05dc724f2e9939cf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_20c1cebb2b648925aad44616594d13d394cbb103.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/6e3a3144c1402c6a237835f20e1e4cea29455af5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_3fdfc32f6fdee2e485ca8fb3d68b4168ce6d73fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/3c4e9c12914f39ea86c854dfedee978cb3d3a50c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_bb3ce1ba3db37af2fbd9740026048829ee6a4ab7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/4b02998516bdf0b3d0f2d578e8714715f68c5a23/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_f9dcaea140565a8cf5fe3f6b6b73b9a25cec67ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/AndroidStudioProjects/test3/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_d304d21ceb7f7d5b070dea93cece5b838473c4c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.3_ed00dfadac65440ab2aa1f25d2f814f51c1ea59c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/942e2a37d2f5115dbbf9eb4e8fb6d10134442afd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/classes_1c3035a54181e676ee1b6b01c9ffd481dc0298a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/7a3cc4d80b2a34688bef2322ca34c96851c789f9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_a358746ad690e71f35257a9aea596fb46209079e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2_a2c3f9f093328d78c95a2683809796fb36cb8f34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/556c6394de895ace0d354ad84cb757b12dd9508e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_6b8ee0ad5e17aa63c5af4f0dd2f17390d5bc8eb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/bff1d4f18217ac0d1862bd21bc5b0f3a4e7026a6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/debug/classes_06bda63107d6ff19ba17d334ecff71d1476f4e82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3_685cf6e957d592fdeb04b0ad59ecd5d9a391a7df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/18ca74d40f9d1fdd34acf5b923ac164b4b8df71a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/classes_3d89ed8d6487a6f89f3cbc6a4331a076c35df709.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1_4a8c5e77fc25dee9d0dffbc2f377af7770373139.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/stifmeister/.android/build-cache/b1f98472e003047340ae9317e36d0e979415402f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/pre-dexed/androidTest/debug/classes_6b3e46ceda67fa2352745f626dabfb4b4eabfc44.jar" />
+    </item>
+
+</items>

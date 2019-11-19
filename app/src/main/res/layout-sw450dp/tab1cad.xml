@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participants need to use their Computer Aided Drawing(CAD) skills to make a virtual model of a space related structure."
+            android:background="#9004517e"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:textColor="#ccffffff" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prizes worth INR 10,000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problem Statement"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participant have to give an optimized CAD design of the given problem statement overnight. The exact problem statement will be released just before the event. Some component of CAD will be provided. Participant have to submit a design report on their CAD to validate their design."
+            android:background="#9004517e"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:textColor="#ccffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Rules"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cad_rules"
+            android:background="#9004517e"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:textColor="#ccffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judging Parameters"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The judging will be based on accuracy of CAD and design presentation."
+            android:background="#9004517e"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:textColor="#ccffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Certification Policy"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#9004517e"
+            android:text="Top 3 teams will be awarded by certification of merit for the event."
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:textColor="#ccffffff" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_directions.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_directions.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_lift_off.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_lift_off.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_quiz.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_quiz.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_tshirt_designing.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_tshirt_designing.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_magneteer.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_magneteer.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_guest_lectures.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_guest_lectures.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_space_debate.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_space_debate.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_events2.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_events2.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_coloniser.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_coloniser.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_braitenberg_challenge.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_braitenberg_challenge.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/main.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_guest_lecture.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_guest_lecture.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/activity_main_drawer.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_cad.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_cad.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_firocious.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_firocious.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_hoverpod.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_hoverpod.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_guest_talks.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_guest_talks.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_exhibition.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_exhibition.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_contacts.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_contacts.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_about_us.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_about_us.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_workshops.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_workshops.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_astro_photography.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_astro_photography.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_paper_presentation.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_paper_presentation.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/menu/menu_case_study.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/menu/menu_case_study.xml"
+    }
+]

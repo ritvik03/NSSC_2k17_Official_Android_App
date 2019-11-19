@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:text="How to Approach"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/firo_hwap"
+                android:textColor="#ccffffff"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#9004517e"
+                android:layout_below="@+id/textView13"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView17" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mechanisms"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:id="@+id/sc_col"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView18"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/firo_mat"
+                android:textColor="#ccffffff"
+                android:layout_margin="20dp"
+                android:background="#9004517e"
+
+                android:id="@+id/textView19"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materails Required"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:id="@+id/textView20"
+                android:layout_marginLeft="20dp"/>
+
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/light"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:background="#9004517e"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Line Follower"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A line follower robot basically follows a line. It uses the principle that Black color reflects less light falling on it as compare to the White color.
+We can use IR-LED sensors or LDR sensors to measure and compare the intensity of reflected light.
+"
+                android:textColor="#ccffffff"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#9004517e" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="House Detection"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:layout_margin="10dp"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:text="A house on left side of the road can be detected using SONAR. Sonar is a device which uses ultrasonic waves to detect distance between obstacle and itself. HC-SR05 (Popular Sonar module) emits ultrasonic waves at 40 kHz which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. The HC-SR04 Ultrasonic Module has 4 pins, Ground, VCC, Trig and Echo. In order to generate the ultrasound you need to set the Trig on a High State for 10 µs. That will send out 8 cycle sonic burst travelling at the speed of sound and automatically turn the Echo pin high. The Echo pin will be low as soon as the sound comes back as echo. So time between the two will give us the distance of the object from sonar."
+                android:textColor="#ccffffff"
+                android:background="#9004527e"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Light Intensity Detection"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:layout_margin="10dp"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:text="Light Intensity Difference can be detected in many ways. Here we will talk about LDR sensor. An LDR is a component that has a (variable) resistance that changes with the light intensity that falls upon it. This allows them to be used in light sensing circuits."
+                android:textColor="#ccffffff"
+                android:background="#9004527e"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/i18"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Light Detection Circuit"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/i19"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:text="The above circuit is a simple light   intensity detection circuit, here the resistor and LDR pair serves as a potential divider. As the light intensity increases the resistance of the LDR decreases and hence the potential drop across the resistor increases, so the analog value read by the microcontroller is proportional to the intensity falling on the LDR.
+The threshold has to be set accordingly for light ON and light OFF for the Candle light in the house.
+\n\nBasic Idea\n
+The microcontroller must read the sonar output and hence judging the presence of house. Then after opening the door of the  house check voltage across the resistor(Light Detection Circuit) and hence judging the presence candle and blow it off.
+"
+                android:textColor="#ccffffff"
+                android:background="#9004527e"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

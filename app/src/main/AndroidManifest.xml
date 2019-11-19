@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.nssc.test3">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nssclogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/nssclogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contacts"
+            android:label="@string/title_activity_contacts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GuestTalks"
+            android:label="@string/title_activity_guest_talks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Workshops"
+            android:label="@string/title_activity_workshops"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WebViewActivity" />
+        <activity
+            android:name=".Magneteer"
+            android:label="@string/title_activity_magneteer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Directions"
+            android:label="@string/title_activity_directions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hoverpod"
+            android:label="@string/title_activity_hoverpod"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Colonizer"
+            android:label="@string/title_activity_coloniser"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Firocious"
+            android:label="@string/title_activity_firocious"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpaceDebate"
+            android:label="@string/title_activity_space_debate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CAD"
+            android:label="@string/title_activity_cad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TshirtDesigning"
+            android:label="@string/title_activity_tshirt_designing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CaseStudy"
+            android:label="@string/title_activity_case_study"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quiz"
+            android:label="@string/title_activity_quiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaperPresentation"
+            android:label="@string/title_activity_paper_presentation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BraitenbergChallenge"
+            android:label="@string/title_activity_braitenberg_challenge"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Events2"
+            android:label="@string/title_activity_events2"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/nssclogo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LiftOff"
+            android:label="@string/title_activity_lift_off"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AstroPhotography"
+            android:label="@string/title_activity_astro_photography"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Developer"
+            android:label="@string/title_activity_developer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GuestLectures"
+            android:label="@string/title_activity_guest_lectures"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RC"
+            android:label="@string/title_activity_rc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bot"
+            android:label="@string/title_activity_bot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GW"
+            android:label="@string/title_activity_gw"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ballooning"
+            android:label="@string/title_activity_ballooning"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exhibition"
+            android:label="@string/title_activity_exhibition"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

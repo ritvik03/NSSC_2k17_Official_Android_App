@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/stifmeister/.android/build-cache/91228ffe47e5b5d8cfb2b907a7d6d8757a8a6a90/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/drawable-anydpi-v21/ic_schedule_black_24dp.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_schedule_black_24dp.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/drawable-anydpi-v21/ic_navigation_black_24dp.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_navigation_black_24dp.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/stifmeister/.android/build-cache/91228ffe47e5b5d8cfb2b907a7d6d8757a8a6a90/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/drawable-anydpi-v21/ic_widgets_black_24dp.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_widgets_black_24dp.xml"
+    }
+]

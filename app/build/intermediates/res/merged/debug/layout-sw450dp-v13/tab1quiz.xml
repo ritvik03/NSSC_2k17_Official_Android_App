@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Quizzes not only increase the participation of space enthusiasts by giving them a challenging atmosphere but also helps to inculcate an interest of other people in the field of space and astronomy.
+
+Get ready for Space Quiz 2.0 on August 5th at 6 pm.Let your little grey cells whirr away, and take a step towards fantastic cash prizes on offer. Presenting the second edition of the Quiz in NSSC '17 , Space Quiz 2.0 in association with Dare2compete.com, with a direct entry into the final round to be held in IIT Kharagpur during the fest at stake.
+
+For details, rules and regulations and registration click link below "
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:background="#9004517e"
+                android:padding="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/j4"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Quiz" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\n"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

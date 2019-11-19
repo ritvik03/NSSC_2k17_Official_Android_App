@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_intro"
+                android:background="#9004517e"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:id="@+id/textView14" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prizes worth INR 20,000"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Problem Statement"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/ps_col"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_ps"
+                android:background="#9004517e"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:id="@+id/textView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculations"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_calculation"
+                android:background="#9004517e"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rules"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_margin="20dp"
+                android:id="@+id/rule_col"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_rules"
+                android:background="#9004517e"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:id="@+id/textView16" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:text="Deadline"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_deadline"
+                android:textColor="#ccffffff"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#9004517e"
+                android:layout_below="@+id/textView13"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView17" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Judging Parameters"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="17dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_judging"
+                android:textColor="#ccffffff"
+                android:layout_margin="20dp"
+                android:background="#9004517e"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Certification Policy"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_certi"
+                android:layout_margin="20dp"
+                android:textColor="#ccffffff"
+                android:background="#9004517e"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

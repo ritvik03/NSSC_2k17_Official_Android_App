@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3deb.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3deb.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3firo.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3firo.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1bc.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1bc.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_case_study.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_case_study.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2bc.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2bc.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_hoverpod.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_hoverpod.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2col.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2col.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_space_debate.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_space_debate.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_developer.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_developer.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_colonizer.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_colonizer.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_about_us.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_about_us.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1cad.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1cad.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_tshirt_designing.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_tshirt_designing.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_main.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_main.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_tshirt_designing.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_tshirt_designing.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1deb.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1deb.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_coloniser.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_coloniser.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_case_study.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_case_study.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1cs.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1cs.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2cs.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2cs.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3cs.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3cs.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3quiz.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3quiz.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3t.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3t.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_main2.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_main2.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_paper_presentation.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_paper_presentation.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1mag.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1mag.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_firocious.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_firocious.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1t.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1t.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3cad.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3cad.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3mag.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3mag.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2hov.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2hov.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/nav_header_main.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/nav_header_main.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_directions.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_directions.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_events22.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_events22.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3bc.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3bc.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2quiz.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2quiz.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_lift_off.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_lift_off.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_workshops.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_workshops.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_schedule.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_schedule.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_about_us.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_about_us.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3lift.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3lift.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_magneteer2.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_magneteer2.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_web_view.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_web_view.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2deb.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2deb.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_developer.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_developer.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_contacts.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_contacts.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_main.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_main.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_magneteer2.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_magneteer2.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_hoverpod.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_hoverpod.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1col.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1col.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_directions.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_directions.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2as.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2as.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_astro_photography.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_astro_photography.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_quiz.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_quiz.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1as.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1as.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_contacts.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_contacts.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1pp.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1pp.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2pp.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2pp.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1firo.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1firo.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1quiz.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1quiz.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_schedule.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_schedule.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3pp.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3pp.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_guest_talks.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_guest_talks.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/app_bar_main.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/app_bar_main.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_paper_presentation.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_paper_presentation.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_cad.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_cad.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_magneteer.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_magneteer.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_main2.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_main2.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2mag.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2mag.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2firo.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2firo.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1lift.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1lift.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2cad.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2cad.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_cad.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_cad.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_firocious.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_firocious.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_events2.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_events2.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_space_debate.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_space_debate.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab1hov.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab1hov.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_braitenberg_challenge.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_braitenberg_challenge.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_quiz.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_quiz.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_workshops.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_workshops.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3col.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3col.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_astro_photography.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_astro_photography.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2lift.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2lift.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab2t.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab2t.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/fragment_lift_off.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/fragment_lift_off.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/activity_braitenberg_challenge.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/activity_braitenberg_challenge.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/tab3hov.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/tab3hov.xml"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/release/layout-sw720dp-v13/content_guest_talks.xml",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/src/main/res/layout-sw720dp/content_guest_talks.xml"
+    }
+]

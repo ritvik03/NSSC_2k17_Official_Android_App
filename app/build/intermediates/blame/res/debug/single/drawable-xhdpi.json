@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_schedule_black_24dp.png",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_schedule_black_24dp.png"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_navigation_black_24dp.png",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_navigation_black_24dp.png"
+    },
+    {
+        "merged": "/home/stifmeister/AndroidStudioProjects/test3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_widgets_black_24dp.png",
+        "source": "/home/stifmeister/AndroidStudioProjects/test3/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_widgets_black_24dp.png"
+    }
+]
